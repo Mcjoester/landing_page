@@ -24,6 +24,7 @@ body {
     min-height: 100vh;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    height: 100%;
   }
 
 
@@ -35,6 +36,10 @@ body {
 .wrapper {
     display: flex;
     justify-content: center;
+}
+
+.wrapper:first-of-type {
+    background-color: #1f2937;
 }
 
 .first {
@@ -172,4 +177,18 @@ h3 {
     height: 170px; 
     border: 4px solid #3882f6;
     border-radius: 7px;
+}
+
+/* Section 3 */ 
+#thirdWrapper {
+    background-color: #e5e7eb;
+}
+
+#third {
+    padding: 6rem 14rem 5rem 14rem;
+    gap: 2rem;
+}
+
+#third p {
+    font-size: 36px;
 }
