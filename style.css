@@ -191,4 +191,62 @@ h3 {
 
 #third p {
     font-size: 36px;
+    font-weight: 150;
+}
+
+
+/* Section 4 */
+
+#fourth {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 48px;
+
+}
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex: 2;
+    gap: 5rem;
+    padding: 3rem 10rem 3rem 10rem;
+    margin-bottom: 3rem;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 7px;
+}
+
+.cta-left {
+    display:flex;
+    justify-content: column;
+    align-items: center;
+}
+
+#ctaButton {
+    background-color: #3882f6;
+    border-radius: 7px;
+    font-weight: 900;
+    padding: 7px 30px;
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
 }
